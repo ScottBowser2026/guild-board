@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PARF Trackers — Guild Board</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#172d1f">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Guild Board">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
 
@@ -208,7 +215,7 @@
     <div class="seal">
       <svg viewBox="0 0 24 24"><path d="M12 2 L14.5 8.5 L21 9 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9 L9.5 8.5 Z"/></svg>
     </div>
-    <div class="kicker">Pennsylvania Renaissance Faire · Mount Hope Estate</div>
+    <div class="kicker">Lancelot Entertainment · Renaissance Faires</div>
     <h1>The Guild Board</h1>
     <div class="dek">Every tracker, tool, and ledger in one place — by trade.</div>
   </header>
@@ -241,13 +248,13 @@
         <div class="card-cta">Open tracker <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       </a>
 
-      <a href="#" class="card" target="_blank" rel="noopener">
+      <a href="https://refrigeration.lancelotbiz.com" class="card" target="_blank" rel="noopener">
         <div class="card-top">
           <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M6 3h12v18H6zM6 9h12M9 3v6M9 15h.01M9 18h.01"/></svg></div>
-          <span class="status placeholder">Add link</span>
+          <span class="status live">Live</span>
         </div>
         <div class="card-name">Refrigeration Tracker</div>
-        <div class="card-desc">Cooler &amp; fridge temps, fan status, and unit type by location.</div>
+        <div class="card-desc">Cooler &amp; freezer temps, fans, and compressor checks by unit, with maintenance tickets and repair cost tracking.</div>
         <div class="card-cta">Open tracker <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       </a>
 
@@ -284,16 +291,6 @@
 
       <a href="#" class="card" target="_blank" rel="noopener">
         <div class="card-top">
-          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M9 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4M17 3l4 4L11 17H7v-4L17 3Z"/></svg></div>
-          <span class="status placeholder">Add link</span>
-        </div>
-        <div class="card-name">Electronic Reporting</div>
-        <div class="card-desc">Digital reporting to replace paper entries and scattered photos, with full Teams history.</div>
-        <div class="card-cta">Open tracker <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
-      </a>
-
-      <a href="#" class="card" target="_blank" rel="noopener">
-        <div class="card-top">
           <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M4.2 4.2l2.8 2.8M17 17l2.8 2.8M3 12h4M17 12h4M4.2 19.8L7 17M17 7l2.8-2.8"/></svg></div>
           <span class="status placeholder">Add link</span>
         </div>
@@ -319,7 +316,7 @@
           <span class="status placeholder">Add link</span>
         </div>
         <div class="card-name">Employee Incident Report</div>
-        <div class="card-desc">Occupational incident reporting — employee + supervisor sections, routed to HR.</div>
+        <div class="card-desc">OSHA-related reporting — workplace injuries, near-misses, and similar occupational incidents.</div>
         <div class="card-cta">Open tracker <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       </a>
 
@@ -329,7 +326,7 @@
           <span class="status placeholder">Add link</span>
         </div>
         <div class="card-name">Patron Incident Report</div>
-        <div class="card-desc">Guest complaints, injuries, allergies, altercations, theft, and vandalism.</div>
+        <div class="card-desc">Guest complaints, injuries, allergies, altercations, theft, and vandalism. Ops managers can reopen a case to add scene photos.</div>
         <div class="card-cta">Open tracker <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       </a>
 
@@ -340,16 +337,6 @@
         </div>
         <div class="card-name">First Aid Tracking</div>
         <div class="card-desc">FA station evaluations, customer-facing intake, and worker's comp info collection.</div>
-        <div class="card-cta">Open tracker <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
-      </a>
-
-      <a href="#" class="card" target="_blank" rel="noopener">
-        <div class="card-top">
-          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 7h3l2-3h6l2 3h3v13H4Z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/></svg></div>
-          <span class="status placeholder">Add link</span>
-        </div>
-        <div class="card-name">Incident Scene Photos</div>
-        <div class="card-desc">Shared photo log for incident scenes — multiple contributors, one running record.</div>
         <div class="card-cta">Open tracker <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       </a>
 
@@ -366,7 +353,7 @@
     </div>
   </section>
 
-  <footer>fbqc.lancelotbiz.com — internal use only</footer>
+  <footer>guildboard.lancelotbiz.com — internal use only</footer>
 
 </div>
 </body>

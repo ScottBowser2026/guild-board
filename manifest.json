@@ -1,0 +1,14 @@
+{
+  "name": "PARF Trackers — Guild Board",
+  "short_name": "Guild Board",
+  "description": "Directory of internal tracker apps for Lancelot Entertainment properties",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#efe9d8",
+  "theme_color": "#172d1f",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
